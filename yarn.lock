@@ -3936,6 +3936,11 @@ chromatic@^11.3.2:
   resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.3.2.tgz#e95a5eba9a1f3d10761335aba2b986c4436dde7a"
   integrity sha512-0PuHl49VvBMoDHEfmNjC/bim9YYNhWF3axTZlFuatC0avwr2Xw4GDqJDG9fArEWN8oM8VtYHkE9D7qc87dmz2w==
 
+chromatic@^11.3.5:
+  version "11.3.5"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.3.5.tgz#980a02fed612fcf9ace84fb50ab4c43b7380a5d1"
+  integrity sha512-M3xCyoEIjdcsXX3NhN60joXxEthy+wxNEcsCMM0u9u8Yna7tJvwvOsJStbOJDwEBo6TdIKckARN3BbArpduFbA==
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
