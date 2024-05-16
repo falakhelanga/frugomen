@@ -16,8 +16,7 @@ interface DatePickerPropType {
   containerClassNames?: string;
   inputClassNames?: string;
   labelClassNames?: string;
-  type?: React.HTMLInputTypeAttribute | undefined;
-  withIcon?: boolean;
+
   iconClassName?: string;
 }
 
@@ -29,6 +28,7 @@ const DatePicker = ({
   containerClassNames,
   labelClassNames,
   className,
+  iconClassName,
 }: DatePickerPropType) => {
   const [field, meta, helpers] = useField(name);
   const { value } = field;
@@ -58,7 +58,10 @@ const DatePicker = ({
               dropdownMode="select"
               dateFormat="dd/MM/yyyy"
             />
-            <Icon name={Icons.calendar} className={"fill-white"} />
+            <Icon
+              name={Icons.calendar}
+              className={twMerge("fill-white", iconClassName)}
+            />
           </div>
         </>
       </InputWrapper>

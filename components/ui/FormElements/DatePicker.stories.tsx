@@ -16,7 +16,11 @@ const meta: Meta = {
 export default meta;
 
 export const DatePicker: StoryFn = () => (
-  <DateInput label="Date of birth" name="dob" />
+  <DateInput
+    label="Date of birth"
+    name="dob"
+    iconClassName="fill-primary-blue"
+  />
 );
 DatePicker.parameters = {
   formik: {
